@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<link href="min.css" rel="stylesheet">
+  
+<script src="http://code.jquery.com/jquery.min.js"></script>
+  
+<meta charset=utf-8 />
+<title>Neatgames</title>
+<link rel="shortcut icon" href="https://lh3.googleusercontent.com/proxy/sSUvWwk0W_h3zWEShbiOYMmTD0ygVDPKExgMtTEIekmRspIrQD-iOQh6i3S16h5YBQfJgR6PzHJcOByRnfToD2M9WZh1628giiPSBxDGYT2TuUuBi_B5Qpdxvd-R-39GLmyjxtYKqqJaEptReHROASEvxBiE3Ew" />
+<style>
+  body {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEX/fgCoXl1PAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=');
+  }
+  </style>
+</head>
+<body>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Neatgames.com</a>
+        </div>
+        <div class="collapse navbar-collapse" id="centerednav">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="games.html">Games</a></li>
+            <li><a href="proxy.html">Proxy</a></li> 
+          </ul>
+        </div>
+        
+      </div>
+      
+    </div>
+
+  
+  
+  
+    <div class="container">
+
+      <div class="starter-template text-center">
+        <h1>M.A.D.</h1>
+        <embed width="550" height="450" base="https://external.kongregate-games.com/gamez/0000/5196/live/" src="https://external.kongregate-games.com/gamez/0000/5196/live/embeddable_5196.swf" type="application/x-shockwave-flash"></embed><br/>Play free games at <a href="https://www.kongregate.com/">Kongregate</a>
+      </div>
+
+    </div><!-- /.container -->
+  
+  
+  
+  <script src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
+  
+</body>
+</html>
+<style>
+    @media (min-width:768px) { 
+	.navbar > .container {
+	    text-align: center;
+	}
+	.navbar-header {
+	    float: none;
+	    display: inline-block;
+	}
+	.navbar-brand {
+	    float: none;
+	    display: inline-block;
+	}
+	.navbar .navbar-nav {
+	    float: none;
+	    display: inline-block;
+	    clear: none;
+	}
+	.navbar .navbar-nav > li {
+	    float: none;
+	    display: inline-block;
+	}
+	.navbar .navbar-nav > li li {
+	    text-align: left
+	}
+	.collapse.navbar-collapse#centerednav {
+	    float: none;
+	    display: inline-block!important;
+	    width: auto;
+	    clear: none;
+	}
+}
+
+</style>
+<script>
+    //http://stackoverflow.com/questions/20691063/jquery-set-height-of-variable-height-navbar-for-body-and-class-used-on-anchors-s
+
+$(window).on('resize load', function() {
+    $('body').css({
+        "padding-top": $(".navbar").height() + "px"
+    });
+
+});
+</script>
